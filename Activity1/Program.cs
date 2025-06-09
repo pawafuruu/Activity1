@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Welcome to my GitHub");
+        Console.Write("Enter a number: ");
 
         if (int.TryParse(Console.ReadLine(), out int number))
         {
