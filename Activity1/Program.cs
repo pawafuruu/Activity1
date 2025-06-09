@@ -9,6 +9,7 @@ class Program
         if (int.TryParse(Console.ReadLine(), out int number))
         {
             CheckEvenOrOdd(number);
+            CheckSign(number);
         }
         else
         {
@@ -23,5 +24,16 @@ class Program
         else
             Console.WriteLine($"{num} is odd.");
     }
+
+    static void CheckSign(int num)
+    {
+        if (num > 0)
+            Console.WriteLine($"{num} is positive.");
+        else if (num < 0)
+            Console.WriteLine($"{num} is negative.");
+        else
+            Console.WriteLine("The number is zero.");
+    }
+
 
 }
