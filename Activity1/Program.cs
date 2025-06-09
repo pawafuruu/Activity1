@@ -13,7 +13,6 @@ class Program
         else
         {
             Console.WriteLine("Invalid input. Please enter an integer.");
-            Console.WriteLine("Additional Comment");
         }
     }
 
